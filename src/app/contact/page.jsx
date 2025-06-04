@@ -1,6 +1,7 @@
 'use client'
 import { ToastContainer, toast } from 'react-toastify';
 export default function contact () {
+     const notify = () => toast("Wow so easy!");
     return (
         <>
        
@@ -14,7 +15,7 @@ export default function contact () {
                     <div className="bg-fuchsia-50 rounded shadow w-[30rem] h-80 p-6 grid grid-cols-1 gap-5">
                         <input placeholder="Name" className="bg-white rounded  py-3 px-2 " type="text" />
                         <input placeholder="Email" className="bg-white rounded  py-3 px-2" type="text" />
-                        <textarea  placeholder="message" className="bg-white rounded py-3 px-2">Message</textarea>
+                        <textarea placeholder="message" className="bg-white rounded py-3 px-2">Message</textarea>
                         <button
                          onClick={()=>notify()}
                          className="bg-amber-400 text-white rounded font-bold hover:bg-amber-600 py-3 px-2">Send Message</button>

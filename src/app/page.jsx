@@ -27,7 +27,7 @@ export default function Home() {
         gradientTo="to-red-500"
         name="pikachu"
         type="Electric Type"
-        image={"https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"}
+        image={item.image}
       />
       ))
       }
