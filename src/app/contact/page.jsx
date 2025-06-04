@@ -5,7 +5,7 @@ export default function contact () {
     return (
         <>
        
-            <div className="top-80 items-center justify-center flex absolute right-115 w-3xl h-[400px]">
+            <div className="top-80  items-center justify-center flex absolute right-115 w-3xl h-[400px]">
 
                 <div >
                     <img className="object-contain w-[30rem] shadow rounded h-80 bg-amber-400 flex p-4 items-center justify-center" src="./pokemon.png" alt="" />

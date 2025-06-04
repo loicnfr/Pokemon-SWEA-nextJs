@@ -4,7 +4,7 @@ import { FaHeart } from "react-icons/fa";
 const Navbar = () => {
     return (
         <>
-         <div className="h-[60px] bg-white w-full px-[60px] flex p-6 items-center justify-between shadow-md fixed z-10">
+         <div className="h-[60px] bg-white w-full px-[60px] flex p-6 items-center justify-between shadow-md fixed z-50">
 
             <Link href='/'>
                 <img src="./pokemon.png" 
